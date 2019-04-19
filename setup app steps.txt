@@ -1,0 +1,24 @@
+Setup steps:
+
+    1. Pull the repository from Luca Bitbacket Account
+    2. Unzip web2py.zip with all the folders and everything
+        3A. Move to web2py/applications/start/ copy the files there.
+            (only if updates in Lucas bitbuckets account)
+    OR
+        3B. Change the name of the application 
+            or make a copy of the start directory
+
+For Running:
+
+        1. command prompt: cd to the web2py dir
+        2. Run python web2py -e
+            C:\Users\Ignacio\Desktop\CMPS183\web2py>python web2py.py -e
+
+        3. On the popUp window, enter:
+            - the server prompt
+            - the password (any, since we will be reseting)
+
+
+For Seeing
+
+    localhost:8000/name_of_application (start)

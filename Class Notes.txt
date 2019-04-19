@@ -1,0 +1,12 @@
+CMPS 183 Web Apps
+
+For not having to restart the server:
+- ??? chech video class
+
+
+Match a regular expresion
+@route('/images/<filename:re:.*\.jpg')
+    return static_file(filename, root='images', mimetype='image.jpg')
+
+    //mimetype says that is a jpg image
+    // sratic_file for cache elements?!
